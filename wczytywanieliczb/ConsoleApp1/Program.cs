@@ -29,6 +29,7 @@ switch (w){
         break; 
     case 3:
         zamien(ref x, ref y);
+        Console.WriteLine($"Pierwsza liczba: {x}, Druga liczba: {y}");
         break;
     case 4:
         if (x > y){
@@ -51,5 +52,4 @@ void zamien(ref int a, ref int b){
     int temp = a;
     a = b;
     b = temp;
-    Console.WriteLine($"Pierwsza liczba: {a}, Druga liczba: {b}");
 }
